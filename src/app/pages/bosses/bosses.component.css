@@ -1,0 +1,25 @@
+.container{
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+.colItem{
+    text-align: center;
+    border: none;
+}
+.rowItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chapter{
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+.floor{
+    font-weight: bold;
+    color: #885018;
+}
+.name{
+    font-weight: normal;
+}
