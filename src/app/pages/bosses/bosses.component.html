@@ -1,109 +1,1662 @@
-<div class="container mt-5 background-page">
-    <div class="pt-2">
-        <h2>Jefes</h2>
-        <p>Los jefes son enemigos comunes en los videojuegos, ellos siendo muchos más poderosos que enemigos normales. Encontrados usualmente al final de un nivel como un desafío final, bastante de ellos requiriendo intentar cosas aprendidas durante el nivel o en el juego entero para poder derrotarlos.</p>
-        <p>En The Binding of Isaac, los jefes aparecen al final de cada piso en sus propias habitaciones. Pero mientras se llegue a pisos más difíciles, los jefes cada vez son más retadores, e incluso jefes de niveles anteriores empiezan a aparecer como monstruos comunes.</p>
-        <p>Hay un tipo de jefe que puede ser clasificados como jefes finales, ya que al derrotarlos suele ser donde termina la partida, o en algunos casos donde se solía acabar. Todos los jefes finales desbloquean secretos al derrotarlos con algún personaje en específico, excepto Mom, que igualmente se considera un jefe final. Los jefes finales siempre aparecen en el mismo piso en todas las partidas también.</p>
+<div class="container m-5 background-page">
+    <div class="pt-2" id="introduction">
+        <h2 class="titleColor">Jefes</h2>
+        <p>Los jefes son enemigos comunes en los videojuegos, ellos siendo muchos más poderosos que enemigos normales.
+            Encontrados usualmente al final de un nivel como un desafío final, bastante de ellos requiriendo intentar
+            cosas aprendidas durante el nivel o en el juego entero para poder derrotarlos.</p>
+        <p>En The Binding of Isaac, los jefes aparecen al final de cada piso en sus propias habitaciones. Pero mientras
+            se llegue a pisos más difíciles, los jefes cada vez son más retadores, e incluso jefes de niveles anteriores
+            empiezan a aparecer como monstruos comunes.</p>
+        <p>Hay un tipo de jefe que puede ser clasificados como jefes finales, ya que al derrotarlos suele ser donde
+            termina la partida, o en algunos casos donde se solía acabar. Todos los jefes finales desbloquean secretos
+            al derrotarlos con algún personaje en específico, excepto Mom, que igualmente se considera un jefe final.
+            Los jefes finales siempre aparecen en el mismo piso en todas las partidas también.</p>
     </div>
     <div class="table">
-        <div class="chapter">Capítulo 1</div>
-        <thead class="floor" id="basement">
-            <div class="row rowTitle">
-                Basement
+        <div class="row rowChapters">
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='1'">
+                    Capítulo 1
+                </div>
             </div>
-            <div class="row rowItems">
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-1.png" alt="">
-                    <div class="name">
-                        Dingle
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-2.png" alt="">
-                    <div class="name">
-                        The Duke of Flies
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-3.png" alt="">
-                    <div class="name">
-                        Gemini
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-4.png" alt="">
-                    <div class="name">
-                        Steven
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-5.png" alt="">
-                    <div class="name">
-                        Larry Jr.
-                    </div>            
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-6.webp" alt="">
-                    <div class="name">
-                        Monstro
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-7.png" alt="">
-                    <div class="name">
-                        Gurglings
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-8.png" alt="">
-                    <div class="name">
-                        Famine
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-9.png" alt="">
-                    <div class="name">
-                        The Fallen
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-10.png" alt="">
-                    <div class="name">
-                        The Headless Horseman
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-11.png" alt="">
-                    <div class="name">
-                        Dangle
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-12.png" alt="">
-                    <div class="name">
-                        Little Horn
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-13.png" alt="">
-                    <div class="name">
-                        Turdlings
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-14.png" alt="">
-                    <div class="name">
-                        Rag Man
-                    </div>
-                </th>
-                <th class="col-3 colItem">
-                    <img src="../../../assets/logos/bosses/chapter/1/basement/boss-15.png" alt="">
-                    <div class="name">
-                        Baby Plum
-                    </div>
-                </th>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='1.5'">
+                    Capítulo 1.5
+                </div>
             </div>
-            
-        </thead>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='2'">
+                    Capítulo 2
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='2.5'">
+                    Capítulo 2.5
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='3'">
+                    Capítulo 3
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='3.5'">
+                    Capítulo 3.5
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='4'">
+                    Capítulo 4
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='corpse'">
+                    Corpse
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='???'">
+                    ???
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='5'">
+                    Capítulo 5
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='6'">
+                    Capítulo 6
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='the_void'">
+                    The Void
+                </div>
+            </div>
+            <div class="col colChapter">
+                <div class="btn btn-danger" (click)="chapter='home'">
+                    Home
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="table">
+        <div class="chapter" *ngIf="chapter=='1'">
+            Capítulo 1
+            <thead class="floor" id="basement">
+                <div class="row rowTitle titleColor">
+                    Basement
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-1.png" alt="">
+                        <div class="name">
+                            Dingle
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-2.png" alt="">
+                        <div class="name">
+                            The Duke of Flies
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-3.png" alt="">
+                        <div class="name">
+                            Gemini
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-4.png" alt="">
+                        <div class="name">
+                            Steven
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-5.png" alt="">
+                        <div class="name">
+                            Larry Jr.
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-6.webp" alt="">
+                        <div class="name">
+                            Monstro
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-7.png" alt="">
+                        <div class="name">
+                            Gurglings
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-8.png" alt="">
+                        <div class="name">
+                            Famine
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-9.png" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-10.png" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-11.png" alt="">
+                        <div class="name">
+                            Dangle
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-12.png" alt="">
+                        <div class="name">
+                            Little Horn
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-13.png" alt="">
+                        <div class="name">
+                            Turdlings
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-14.png" alt="">
+                        <div class="name">
+                            Rag Man
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/basement/boss-15.png" alt="">
+                        <div class="name">
+                            Baby Plum
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="cellar">
+                <div class="row rowTitle titleColor">
+                    Cellar
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-1.webp" alt="">
+                        <div class="name">
+                            Blighted Ovum
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-2.webp" alt="">
+                        <div class="name">
+                            The Duke of Flies
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-3.webp" alt="">
+                        <div class="name">
+                            The Haunt
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-4.webp" alt="">
+                        <div class="name">
+                            Pin
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-5.webp" alt="">
+                        <div class="name">
+                            Widow
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-6.webp" alt="">
+                        <div class="name">
+                            Fistula
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-7.webp" alt="">
+                        <div class="name">
+                            Famine
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-8.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-9.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-10.webp" alt="">
+                        <div class="name">
+                            Little Horn
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-11.webp" alt="">
+                        <div class="name">
+                            Rag Man
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/cellar/boss-12.webp" alt="">
+                        <div class="name">
+                            Baby Plum
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="burning_basement">
+                <div class="row rowTitle titleColor">
+                    Burning Basement
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-1.webp" alt="">
+                        <div class="name">
+                            The Duke of Flies
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-2.webp" alt="">
+                        <div class="name">
+                            Larry Jr.
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-3.webp" alt="">
+                        <div class="name">
+                            Monstro
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-4.webp" alt="">
+                        <div class="name">
+                            The Haunt
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-5.webp" alt="">
+                        <div class="name">
+                            Famine
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-6.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-7.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-8.webp" alt="">
+                        <div class="name">
+                            Little Horn
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-9.webp" alt="">
+                        <div class="name">
+                            Rag Man
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-10.webp" alt="">
+                        <div class="name">
+                            Dingle
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-11.webp" alt="">
+                        <div class="name">
+                            Gurglings
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-12.webp" alt="">
+                        <div class="name">
+                            Gemini
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-13.webp" alt="">
+                        <div class="name">
+                            Steven
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-14.webp" alt="">
+                        <div class="name">
+                            Dangle
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-15.webp" alt="">
+                        <div class="name">
+                            Turdlings
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1/burning_basement/boss-16.webp" alt="">
+                        <div class="name">
+                            Baby Plum
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='1.5'">
+            Capítulo 1.5
+            <thead class="floor" id="downpour">
+                <div class="row rowTitle titleColor">
+                    Downpour
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/downpour/boss-1.webp" alt="">
+                        <div class="name">
+                            Lil Blub
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/downpour/boss-2.webp" alt="">
+                        <div class="name">
+                            Wormwood
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/downpour/boss-3.webp" alt="">
+                        <div class="name">
+                            The Rainmaker
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/downpour/boss-4.webp" alt="">
+                        <div class="name">
+                            Min-Min
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="dross">
+                <div class="row rowTitle titleColor">
+                    Dross
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/dross/boss-1.webp" alt="">
+                        <div class="name">
+                            Lil Blub
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/dross/boss-2.webp" alt="">
+                        <div class="name">
+                            Wormwood
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/dross/boss-3.webp" alt="">
+                        <div class="name">
+                            Clog
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/dross/boss-4.webp" alt="">
+                        <div class="name">
+                            Colostomia
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/1.5/dross/boss-5.webp" alt="">
+                        <div class="name">
+                            Turdlet
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='2'">
+            Capítulo 2
+            <thead class="floor" id="caves">
+                <div class="row rowTitle titleColor">
+                    Caves
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-1.webp" alt="">
+                        <div class="name">
+                            Chub
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-2.webp" alt="">
+                        <div class="name">
+                            C.H.A.D.
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-3.webp" alt="">
+                        <div class="name">
+                            Gurdy
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-4.webp" alt="">
+                        <div class="name">
+                            Gurdy Jr.
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-5.webp" alt="">
+                        <div class="name">
+                            Mega Fathy
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-6.webp" alt="">
+                        <div class="name">
+                            Mega Maw
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-7.webp" alt="">
+                        <div class="name">
+                            Peep
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-8.webp" alt="">
+                        <div class="name">
+                            Dark One
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-9.webp" alt="">
+                        <div class="name">
+                            Pestilence
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-10.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-11.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-12.webp" alt="">
+                        <div class="name">
+                            The Stain
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-13.webp" alt="">
+                        <div class="name">
+                            The Frail
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-14.webp" alt="">
+                        <div class="name">
+                            The Forsaken
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-15.webp" alt="">
+                        <div class="name">
+                            Big Horn
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-16.webp" alt="">
+                        <div class="name">
+                            Rag Man
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-17.webp" alt="">
+                        <div class="name">
+                            Fistula
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/caves/boss-18.webp" alt="">
+                        <div class="name">
+                            Bumbino
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="catacombs">
+                <div class="row rowTitle titleColor">
+                    Catacombs
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-1.webp" alt="">
+                        <div class="name">
+                            Carrion Queen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-2.webp" alt="">
+                        <div class="name">
+                            Dark One
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-3.webp" alt="">
+                        <div class="name">
+                            Gurdy Jr.
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-4.webp" alt="">
+                        <div class="name">
+                            The Hollow
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-5.webp" alt="">
+                        <div class="name">
+                            The Husk
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-6.webp" alt="">
+                        <div class="name">
+                            Peep
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-7.webp" alt="">
+                        <div class="name">
+                            Polycephalus
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-8.webp" alt="">
+                        <div class="name">
+                            The Wretched
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-8.webp" alt="">
+                        <div class="name">
+                            Pestilence
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-9.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-10.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-11.webp" alt="">
+                        <div class="name">
+                            The Forsaken
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-12.webp" alt="">
+                        <div class="name">
+                            The Frail
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-13.webp" alt="">
+                        <div class="name">
+                            The Stain
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-14.webp" alt="">
+                        <div class="name">
+                            Big Horn
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-15.webp" alt="">
+                        <div class="name">
+                            Rag Man
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/catacombs/boss-16.webp" alt="">
+                        <div class="name">
+                            Bumbino
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="flooded_caves">
+                <div class="row rowTitle titleColor">
+                    Flooded Caves                   
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-1.webp" alt="">
+                        <div class="name">
+                            Chub
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-2.webp" alt="">
+                        <div class="name">
+                            C.H.A.D.
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-3.webp" alt="">
+                        <div class="name">
+                            Gurdy
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-4.webp" alt="">
+                        <div class="name">
+                            Gurdy Jr.
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-5.webp" alt="">
+                        <div class="name">
+                            Peep
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-6.webp" alt="">
+                        <div class="name">
+                            Polycephalus
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-7.webp" alt="">
+                        <div class="name">
+                            Dark One
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-8.webp" alt="">
+                        <div class="name">
+                            Pestilence
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-9.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-10.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-11.webp" alt="">
+                        <div class="name">
+                            The Forsaken
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-12.webp" alt="">
+                        <div class="name">
+                            The Frail
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-13.webp" alt="">
+                        <div class="name">
+                            The Stain
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-14.webp" alt="">
+                        <div class="name">
+                            Big Horn
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-15.webp" alt="">
+                        <div class="name">
+                            Rag Man
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-16.webp" alt="">
+                        <div class="name">
+                            Fistula
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-17.webp" alt="">
+                        <div class="name">
+                            Mega Draw
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-18.webp" alt="">
+                        <div class="name">
+                            Mega Fathy
+                        </div>
+                    </th>
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/2/flooded_caves/boss-19.webp" alt="">
+                        <div class="name">
+                            Bumbino
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='2.5'">
+            Capítulo 2.5
+            <thead class="floor" id="mines">
+                <div class="row rowTitle titleColor">
+                    Mines
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/mines/boss-1.webp" alt="">
+                        <div class="name">
+                            Hornfel
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/mines/boss-2.webp" alt="">
+                        <div class="name">
+                            Reap Creep
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/mines/boss-3.webp" alt="">
+                        <div class="name">
+                            Tuff Twins
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/mines/boss-4.webp" alt="">
+                        <div class="name">
+                            Great Gideon
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="ashpit">
+                <div class="row rowTitle titleColor">
+                    Ashpit
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/ashpit/boss-1.webp" alt="">
+                        <div class="name">
+                            The Pile
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/ashpit/boss-2.webp" alt="">
+                        <div class="name">
+                            Singe
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/ashpit/boss-3.webp" alt="">
+                        <div class="name">
+                            The Shell
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/ashpit/boss-4.webp" alt="">
+                        <div class="name">
+                            Great Gideon
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/2.5/ashpit/boss-5.webp" alt="">
+                        <div class="name">
+                            Clutch
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='3'">
+            Capítulo 3
+            <thead class="floor" id="depths">
+                <div class="row rowTitle titleColor">
+                    Depths
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-1.webp" alt="">
+                        <div class="name">
+                            The Cage
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-2.webp" alt="">
+                        <div class="name">
+                            The Gate
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-3.webp" alt="">
+                        <div class="name">
+                            Monstro II
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-4.webp" alt="">
+                        <div class="name">
+                            Gish
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-5.webp" alt="">
+                        <div class="name">
+                            Loki
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-6.webp" alt="">
+                        <div class="name">
+                            The Adversary
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-7.webp" alt="">
+                        <div class="name">
+                            War
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-8.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-9.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-10.webp" alt="">
+                        <div class="name">
+                            Brownie
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-11.webp" alt="">
+                        <div class="name">
+                            Sisters Vis
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/depths/boss-12.webp" alt="">
+                        <div class="name">
+                            Reap Creep
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="necropolis">
+                <div class="row rowTitle titleColor">
+                    Necropolis
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-1.webp" alt="">
+                        <div class="name">
+                            The Adversary
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-2.webp" alt="">
+                        <div class="name">
+                            The Bloat
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-3.webp" alt="">
+                        <div class="name">
+                            Mask of Infamy
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-4.webp" alt="">
+                        <div class="name">
+                            Loki
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-5.webp" alt="">
+                        <div class="name">
+                            The Gate
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-6.webp" alt="">
+                        <div class="name">
+                            War
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-7.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-8.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-9.webp" alt="">
+                        <div class="name">
+                            Brownie
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-10.webp" alt="">
+                        <div class="name">
+                            Sisters Vis
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/necropolis/boss-11.webp" alt="">
+                        <div class="name">
+                            The Pile
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="dank_depths">
+                <div class="row rowTitle titleColor">
+                    Dank Depths
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-1.webp" alt="">
+                        <div class="name">
+                            Loki
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-2.webp" alt="">
+                        <div class="name">
+                            Monstro II
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-3.webp" alt="">
+                        <div class="name">
+                            Gish
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-4.webp" alt="">
+                        <div class="name">
+                            The Adversary
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-5.webp" alt="">
+                        <div class="name">
+                            War
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-6.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-7.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-8.webp" alt="">
+                        <div class="name">
+                            Brownie
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-9.webp" alt="">
+                        <div class="name">
+                            Sisters Vis
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-10.webp" alt="">
+                        <div class="name">
+                            The Cage
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-11.webp" alt="">
+                        <div class="name">
+                            The Gate
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/dank_depths/boss-12.webp" alt="">
+                        <div class="name">
+                            Reap Creep
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="final_boss_1">
+                <div class="row rowTitle titleColor">
+                    Final Boss
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3/final_boss/boss-1.webp" alt="">
+                        <div class="name">
+                            Mom
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='3.5'">
+            Capítulo 3.5
+            <thead class="floor" id="mausoleum">
+                <div class="row rowTitle titleColor">
+                    Mausoleum
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3.5/mausoleum/boss-1.webp" alt="">
+                        <div class="name">
+                            The Siren
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3.5/mausoleum/boss-2.webp" alt="">
+                        <div class="name">
+                            The Heretic
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="gehenna">
+                <div class="row rowTitle titleColor">
+                    Gehenna
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3.5/gehenna/boss-1.webp" alt="">
+                        <div class="name">
+                            The Visage
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3.5/gehenna/boss-2.webp" alt="">
+                        <div class="name">
+                            The Horny Boys
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="final_boss_2">
+                <div class="row rowTitle titleColor">
+                    Final Bosses
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3.5/final_boss/boss-1.webp" alt="">
+                        <div class="name">
+                            Mom
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/3.5/final_boss/boss-2.webp" alt="">
+                        <div class="name">
+                            Mom's Heart
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='4'">
+            Capítulo 4
+            <thead class="floor" id="womb">
+                <div class="row rowTitle titleColor">
+                    Womb
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-1.webp" alt="">
+                        <div class="name">
+                            Blastocyst
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-2.webp" alt="">
+                        <div class="name">
+                            Loki
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-3.webp" alt="">
+                        <div class="name">
+                            Mama Gurdy
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-4.webp" alt="">
+                        <div class="name">
+                            Mr. Fred
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-5.webp" alt="">
+                        <div class="name">
+                            Scolex
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-6.webp" alt="">
+                        <div class="name">
+                            The Bloat
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-7.webp" alt="">
+                        <div class="name">
+                            Daddy Long Legs
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-8.webp" alt="">
+                        <div class="name">
+                            Triachnid
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-9.webp" alt="">
+                        <div class="name">
+                            Teratoma
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-10.webp" alt="">
+                        <div class="name">
+                            Death
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-11.webp" alt="">
+                        <div class="name">
+                            Conquest
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-12.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-13.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-14.webp" alt="">
+                        <div class="name">
+                            The Matriarch
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/womb/boss-15.webp" alt="">
+                        <div class="name">
+                            Sisters Vis
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="utero">
+                <div class="row rowTitle titleColor">
+                    Utero
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-1.webp" alt="">
+                        <div class="name">
+                            Lokii
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-2.webp" alt="">
+                        <div class="name">
+                            The Bloat
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-3.webp" alt="">
+                        <div class="name">
+                            Daddy Long Legs
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-4.webp" alt="">
+                        <div class="name">
+                            Triachnid
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-5.webp" alt="">
+                        <div class="name">
+                            Teratoma
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-6.webp" alt="">
+                        <div class="name">
+                            Mr. Fred
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-7.webp" alt="">
+                        <div class="name">
+                            Mama Gurdy
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-8.webp" alt="">
+                        <div class="name">
+                            Blastocyst
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-9.webp" alt="">
+                        <div class="name">
+                            Death
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-10.webp" alt="">
+                        <div class="name">
+                            Conquest
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-11.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-12.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-13.webp" alt="">
+                        <div class="name">
+                            Sisters Vis
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/utero/boss-14.webp" alt="">
+                        <div class="name">
+                            The Matriarch
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="scarred_womb">
+                <div class="row rowTitle titleColor">
+                    Scarred Womb
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-1.webp" alt="">
+                        <div class="name">
+                            Blastocyst
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-2.webp" alt="">
+                        <div class="name">
+                            Mama Gurdy
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-3.webp" alt="">
+                        <div class="name">
+                            Scolex
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-4.webp" alt="">
+                        <div class="name">
+                            Triachnid
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-5.webp" alt="">
+                        <div class="name">
+                            Daddy Long Legs
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-6.webp" alt="">
+                        <div class="name">
+                            Teratoma
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-7.webp" alt="">
+                        <div class="name">
+                            The Bloat
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-8.webp" alt="">
+                        <div class="name">
+                            Death
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-9.webp" alt="">
+                        <div class="name">
+                            Conquest
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-10.webp" alt="">
+                        <div class="name">
+                            The Headless Horseman
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-11.webp" alt="">
+                        <div class="name">
+                            The Fallen
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-12.webp" alt="">
+                        <div class="name">
+                            The Matriarch
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-13.webp" alt="">
+                        <div class="name">
+                            Sisters Vis
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-14.webp" alt="">
+                        <div class="name">
+                            Lokii
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/scarred_womb/boss-15.webp" alt="">
+                        <div class="name">
+                            Mr. Fred
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="final_boss_3">
+                <div class="row rowTitle titleColor">
+                    Final Bosses
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/final_boss/boss-1.webp" alt="">
+                        <div class="name">
+                            Mom's Heart
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/4/final_boss/boss-2.webp" alt="">
+                        <div class="name">
+                            It Lives
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='corpse'">
+            Corpse
+            <thead class="floor" id="corpse">
+                <div class="row rowTitle titleColor">
+                    Corpse
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/corpse/corpse/boss-1.webp" alt="">
+                        <div class="name">
+                            Rotgut
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/corpse/corpse/boss-2.webp" alt="">
+                        <div class="name">
+                            Chimera
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/corpse/corpse/boss-3.webp" alt="">
+                        <div class="name">
+                            The Scourge
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="final_boss_4">
+                <div class="row rowTitle titleColor">
+                    Final Boss
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/corpse/final_boss/boss-1.webp" alt="">
+                        <div class="name">
+                            Mother
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='???'">
+            ???
+            <thead class="floor" id="???">
+                <div class="row rowTitle titleColor">
+                    ???
+                </div>
+                <div class="row rowItem">
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/hush/hush/boss-1.webp" alt="">
+                        <div class="name">
+                            Hush
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='5'">
+            Capítulo 5
+            <thead class="floor" id="sheol">
+                <div class="row rowTitle titleColor">
+                    Sheol
+                </div>
+                <div class="row rowItem">
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/5/sheol/boss-1.webp" alt="">
+                        <div class="name">
+                            Satan
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="cathedral">
+                <div class="row rowTitle titleColor">
+                    Cathedral
+                </div>
+                <div class="row rowItem">
+                    <th class="col-3 colItems">
+                        <img src="../../../assets/logos/bosses/chapter/5/cathedral/boss-1.webp" alt="">
+                        <div class="name">
+                            Isaac
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='6'">
+            Capítulo 6
+            <thead class="floor" id="dark_room">
+                <div class="row rowTitle titleColor">
+                    Dark Room
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/6/dark_room/boss-1.webp" alt="">
+                        <div class="name">
+                            The Lamb
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="chest">
+                <div class="row rowTitle titleColor">
+                    Chest
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/6/chest/boss-1.webp" alt="">
+                        <div class="name">
+                            ???
+                        </div>
+                    </th>
+                </div>
+            </thead>
+            <thead class="floor" id="golden_door">
+                <div class="row rowTitle titleColor">
+                    Golden Door
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/6/golden_door/boss-1.webp" alt="">
+                        <div class="name">
+                            Mega Satan
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='the_void'">
+            The Void
+            <thead class="floor" id="the_void">
+                <div class="row rowTitle titleColor">
+                    The Void
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/the_void/the_void/boss-1.webp" alt="">
+                        <div class="name">
+                            Delirium
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
+        <div class="chapter" *ngIf="chapter=='home'">
+            Home
+            <thead class="floor" id="home">
+                <div class="row rowTitle titleColor">
+                    Home
+                </div>
+                <div class="row rowItems">
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/home/home/boss-1.webp" alt="">
+                        <div class="name">
+                            Dogma
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/home/home/boss-2.webp" alt="">
+                        <div class="name">
+                            Ultra Famine
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/home/home/boss-3.webp" alt="">
+                        <div class="name">
+                            Ultra Pestilence
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/home/home/boss-4.webp" alt="">
+                        <div class="name">
+                            Ultra War
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/home/home/boss-5.webp" alt="">
+                        <div class="name">
+                            Ultra Death
+                        </div>
+                    </th>
+                    <th class="col-3 colItem">
+                        <img src="../../../assets/logos/bosses/chapter/home/home/boss-6.webp" alt="">
+                        <div class="name">
+                            The Beast
+                        </div>
+                    </th>
+                </div>
+            </thead>
+        </div>
     </div>
 </div>

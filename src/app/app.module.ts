@@ -11,6 +11,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { HeaderComponent } from './pages/header/header.component';
 import { FooterComponent } from './pages/footer/footer.component';
 import { EditComponent } from './pages/edit/edit.component';
+import { CommonModule } from '@angular/common';
+import { BossesComponent } from './pages/bosses/bosses.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { EditComponent } from './pages/edit/edit.component';
     AboutComponent,
     HeaderComponent,
     FooterComponent,
-    EditComponent
+    EditComponent,
+    BossesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

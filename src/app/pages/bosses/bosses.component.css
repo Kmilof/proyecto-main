@@ -1,21 +1,33 @@
-.colItem{
+#introduction{
+    color: #FFFFFF;
+    -webkit-text-stroke: 0.5px #111111;
+    font-size: 20px;
+}
+.titleColor{
+    color: #f9af47;
+}
+.chapter{
+    font-size: 30px;
     text-align: center;
-    border: none;
+}
+.rowTitle{
+    font-size: 35px;
+    padding-left: 25px;
+    color: #a76811;
+    -webkit-text-stroke: 1px #111111;
 }
 .rowItems{
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-text-stroke: 0.5px #111111;
 }
-.chapter{
+.colItem{
     text-align: center;
-    font-size: large;
-    font-weight: bolder;
-}
-.floor{
-    font-weight: bold;
-    color: #885018;
+    border: none;
 }
 .name{
     font-weight: normal;
+    color: #F9AE47;
+    font-size: 20px;
 }
